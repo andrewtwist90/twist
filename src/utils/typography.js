@@ -7,8 +7,14 @@ Wordpress2016.overrideThemeStyles = () => {
       boxShadow: `none`,
     },
     'a': {
-      Color: '#ff007b'
+      Color: '#333'
     },
+    'small': {
+      Color: '#6F777B',
+    },
+    'p' : {
+      MarginTop: '0.5rem',
+    }
   }
 }
 
