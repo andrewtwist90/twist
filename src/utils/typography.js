@@ -22,6 +22,9 @@ Wordpress2016.overrideThemeStyles = () => {
 
     'p' : {
       MarginTop: '0.5rem',
+    },
+    '.bio a' : {
+      BoxShadow: '0 0 0 0 !important',
     }
   }
 }
