@@ -16,6 +16,7 @@ module.exports = {
         name: `blog`,
       },
     },
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -30,7 +31,6 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
             },
           },
           {
@@ -39,6 +39,16 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+            width: 800,
+            ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+            related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+            noIframeBorder: true //Optional: Disable insertion of <style> border: 0
+            },
+          },
+          `gatsby-remark-responsive-iframe`,
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
