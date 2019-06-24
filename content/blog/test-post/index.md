@@ -6,6 +6,8 @@ My first proper job ended with a brief phone call. Unlike most calls, it wasn’
 
 I listened as the Managing Director told me he could see no way back for me in his agency. I had no response to his end-of-tether honesty. It took only a few crushing blows before he delivered the inevitable result.
 
+![Nasa](./nasa_launch.jpg)
+
 As he ended the call, I stood there – scared, upset and sacked.
 
 This was only six months after he’d called to offer me a job. In that conversation he talked about how impressed they were in my interview. I’d replied with how excited I was to work for them.
