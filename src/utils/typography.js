@@ -12,14 +12,9 @@ Wordpress2016.overrideThemeStyles = () => {
     'small': {
       Color: '#6F777B',
     },
-    '.date': {
+    '.date' : {
       PaddingTop: '1rem',
       MarginBottom: '1rem !important',
-    },
-    'small' : {
-      background: 'url(https://cdn2.hubspot.net/hubfs/1951809/text-highlight.png) no-repeat center center',
-      backgroundSize: '300% auto',
-
     },
     'h1' : {
       MarginTop: '0 !important',

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `🚀`,
+    title: `Twist`,
     author: `Andrew Twist`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -48,6 +48,7 @@ module.exports = {
             noIframeBorder: true //Optional: Disable insertion of <style> border: 0
             },
           },
+          '@weknow/gatsby-remark-twitter',
           `gatsby-remark-responsive-iframe`,
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
